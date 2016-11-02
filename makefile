@@ -7,6 +7,7 @@ main.o: main.c
 	$(GCC) -c main.c
 
 clean:
+	rm dirinfo
 	rm *.o
 	rm *~
 
